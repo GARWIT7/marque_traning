@@ -1,0 +1,15 @@
+.road{
+    background-color: black;
+    width: 400px;
+    height: 800px;
+    border: 2px solid;
+}
+
+.white{
+    background-color: white;
+    width: 20px;
+    height:100px;
+    margin-left: 175px;
+    margin-top : 20px;
+
+}

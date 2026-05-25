@@ -1,0 +1,49 @@
+/* .block{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    border: 2px, solid black;
+    display: inline-block;
+   
+}
+.big_box{
+    background-color: red;
+    height: 240px;
+    width: auto;
+
+} */
+.secondBox{
+     background-color: red;
+    height: 300px;
+    width: 1340px;
+}
+
+.circle{
+   background: yellow;
+   border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    border: 2px, solid black;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.upperRectangle{
+      background: yellow;
+    height: 100px;
+    width: 1200px;
+    border: 2px, solid black;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.lowerRectangle{
+    background: yellow;
+    height: 150px;
+    width: 1310px;
+    border: 2px, solid black;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 10px;
+}
