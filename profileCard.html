@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:(white);
+}
+
+.profile-card{
+    width:320px;
+    background:#fff;
+    border-radius:20px;  
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+    text-align:center;
+    
+}
+
+
+.card-header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height:120px;
+    background:#4f46e5;
+}
+
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid #4f46e5;
+    margin-top:-60px;
+   
+}
+
+.card-body{
+    padding:20px;
+}
+
+.name{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#222;
+    margin-top:10px;
+}
+
+.role{
+    color:#666;
+    margin:8px 0 15px;
+}
+
+
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    margin:20px 0;
+}
+
+
+
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#4f46e5;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    margin-left: 13px;
+    
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.social-icons img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.footer{
+    color: #222;
+ display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:20px 0;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="profile-card">
+   
+    <img
+        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+        alt="Profile"
+        class="profile-img"
+    >
+
+    <div class="card-body">
+        <h2 class="name">CodingLab</h2>
+        <p class="role">YouTuber & Blogger</p>
+
+
+        <div class="stats">
+           <div class="social-icons">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-m-63DDD09lYDPmlx66V6za5RMpAvCKNzVOdgoDElpExutejpoCcIEc&s=10"
+         alt="Facebook">
+
+    <img src="https://img.magnific.com/premium-psd/twiter-3d-icon_530221-968.jpg?semt=ais_hybrid&w=740&q=80"
+         alt="Twitter">
+
+    <img src="https://png.pngtree.com/element_our/sm/20180630/sm_5b37de3263964.jpg"
+         alt="Instagram">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjniSqLXuGWw6IZ2r6vxz-6HaD6T6KsEdiJXIRocMqlw&s=10"
+         alt="YouTube">
+</div>
+      </div>
+
+        <a  class="btn">Subscribe</a>
+        <a  class="btn">Message</a>
+    </div>
+    <div class="footer">
+        <div class="likes">60.4k</div>
+        <div class="comment">20k</div>
+        <div class="share">12.4k</div>
+    </div>
+</div>
+    
+
+</body>
+</html>

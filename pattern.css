@@ -1,0 +1,80 @@
+ body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+
+    .box {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 12px;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box1 {
+      background: crimson;
+      top: 40px;
+      left: 40px;
+      z-index: -1;
+      background-image: url(image.jfif);
+      background-size:contain;
+    }
+
+    .box2 {
+      background: royalblue;
+      top: 90px;
+      left: 90px;
+      z-index: -2;
+    }
+
+    .box3 {
+      background: seagreen;
+      top: 140px;
+      left: 140px;
+      z-index: -3;
+    }
+
+    .container2 {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+    
+    .box4 {
+      background: crimson;
+      top: 40px;
+      left: 40px;
+      z-index: 1;
+    }
+
+    .box5 {
+      background: royalblue;
+      top: 90px;
+      left: 90px;
+      z-index: 2;
+    }
+
+    .box6 {
+      background: seagreen;
+      top: 140px;
+      left: 140px;
+      z-index: 3;
+      background-image: url(image3.jfif);
+
+    }

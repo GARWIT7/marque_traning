@@ -1,0 +1,66 @@
+:root{
+    --mainColor: yellow;
+    --upperSqr: red;
+--mainHeight: 550px;
+--mainWidth: 600px;
+--height:150px;
+--width: 250px;
+--display:inline-block;
+--marginLeft: 20px;
+--marginTop: 20px;
+--withsq3: 520px;
+--borderRadius: 50%;
+--circleWidth: 150px;
+    --marginCircleLeft: 210px;
+    --border: 2px,solid black;
+    --BorderRadius: 10px;
+}
+
+.body{
+    background-color: var(--mainColor);
+    height:var(--mainHeight);
+    width:var(--mainWidth);
+    border: var(--border);
+    border-radius: var(--BorderRadius);
+}
+
+.sq1{
+    background-color: var(--upperSqr);
+    height:var(--height);
+    width:var(--width);
+    display: var(--display);
+    margin-left: var(--marginLeft);
+    margin-top: var(--marginTop);
+    border: var(--border);
+ border-radius: var(--BorderRadius);
+}
+.sq2{
+    background-color: var(--upperSqr);
+    height:var(--height);
+    width: var(--width);
+    display:var(--display);
+    margin-left: var(--marginLeft);
+    margin-top: var(--marginTop);
+    border: var(--border);
+ border-radius: var(--BorderRadius);
+}.sq3{
+    background-color: var(--upperSqr);
+    height:var(--height);
+    width:  var(--withsq3);
+    display:var(--display);
+    margin-top: var(--marginTop);
+    margin-left: var(--marginLeft);
+    border: var(--border);
+ border-radius: var(--BorderRadius);
+}
+.circle{
+    background-color: var(--upperSqr);
+    height:var(--height);
+    width:var(--circleWidth);
+    display:var(--display);
+    margin-left: var(--marginCircleLeft);
+    margin-top: var(--marginTop);
+    border-radius: var(--borderRadius);
+    border: var(--border);
+
+}

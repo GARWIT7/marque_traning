@@ -1,0 +1,94 @@
+:root{
+    --maincolor: red;
+}
+:root{
+    --mainColor: green;
+}
+
+.outer{
+    background-color: bisque;
+    height:80px;
+    width: 100%;
+    position: fixed;
+    top:0%;
+    left: 0%;
+   
+    
+}
+.circle{
+    background-color: aqua;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border:1px, solid black;
+}
+
+.b1{
+    background-color: aqua;
+    height:50px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;border:1px, solid black;
+}
+.b2{
+    background-color: aqua;
+    height:50px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;border:1px, solid black;
+}
+.b3{
+    background-color: aqua;
+    height:50px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;border:1px, solid black;
+}
+.search{
+    background-color: aqua;
+    height:50px;
+    width: 600px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 30px;border:1px, solid black;
+}
+.b4{
+     background-color: aqua;
+    height:50px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    border:1px, solid black;
+}
+.b5{
+      background-color: aqua;
+    height:50px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;border:1px, solid black;
+
+}
+.b{
+    background-color: var(--mainColor);
+    height:100px;
+    width: 100px;
+    margin-top: 10px;
+    border:1px, solid black;
+}
+.b7{
+    background-color: var(--maincolor);
+    height:100px;
+    width: 100px;
+    margin-top: 10px;
+    border:1px, solid black;
+    position: sticky ;      
+}

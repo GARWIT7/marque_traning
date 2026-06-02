@@ -1,0 +1,244 @@
+.header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.logo{
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-left: 40px;
+    border: 1px,solid gray;
+}
+
+.travel{
+background-color: orange;
+    display: inline-block;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px,solid gray;
+}
+.location{
+    background-color: gray;
+    display: inline-block;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-left: 750px;
+    border: 1px,solid gray;
+}
+
+.search{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.searchbar{
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 900px;
+    height: 40px;
+    margin-left: 40px;
+    border: 1px,solid gray;
+}
+.login{
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px,solid gray;
+}
+.more{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px,solid gray;
+}
+.cart{
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px,solid gray;
+}
+.acc{
+     background-color: white;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+.a1{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 40px;
+border: 1px,solid gray;
+}
+
+.a2{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+.a3{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a4{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a5{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a6{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a7{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a8{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a9{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a10{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a11{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a12{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a13{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.a14{
+      background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+border: 1px,solid gray;
+}
+.main{
+    background-color: WHITE;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+
+}
+.b1{
+    background-color: purple;
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 80px;border: 1px,solid gray;
+}
+.b2{
+    background-color: blue;
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+    display: inline-block;
+     margin-left: 50px;border: 1px,solid gray;
+}
+.b3{
+    background-color: green;
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+    display: inline-block;
+     margin-left: 50px;
+}
