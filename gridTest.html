@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_test</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: repeat(4,100px);
+            grid-template-columns: repeat(4,100px);
+            gap: 10px;
+
+        }
+        .box1{
+            background-color: aqua;
+            grid-column: 1/3;
+            grid-row:1/3;
+        }
+        .box2{
+            background-color: aqua;
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        .box3{
+            background-color: aqua;
+            
+        }
+        .box4{
+            background-color: aqua;
+           
+        }
+         .box5{
+            background-color: aqua;
+           
+        }
+         .box6{
+            background-color: aqua;
+          grid-column: 1/-1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class = "container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+    
+</body>
+</html>
